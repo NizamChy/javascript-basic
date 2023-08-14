@@ -1,4 +1,12 @@
+function myArray(takeArray) {
+  console.log(takeArray);
+}
+
+const givenArray = ["array", "to", "function"];
+myArray(givenArray);
+
 function passArrAvg(a, b, c) {
+  console.log("Array elements getting by function parameter.");
   console.log(a);
   console.log(b);
   console.log(c);
